@@ -1,0 +1,345 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.texts {
+   text-align: center
+}
+
+.imagengym {
+    width: 295px;
+    height: 171px;
+    img-center: ;
+}
+
+/* Color negro:#000, Color Gris:#808080*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #808080;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-left, .menu-right, .logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+}
+
+.hamburger span {
+    background-color: white;
+    height: 3px;
+    width: 100%;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.cta-button {
+    padding: 50px;
+    background-color: #808080;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #4B4B4B;
+}
+
+.mobile-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: width 0.5s ease;
+    padding-top: 60px;
+}
+
+.mobile-menu a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.mobile-menu a:hover {
+    color: #ddd;
+}
+
+.mobile-menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+.navbar a:not(.cta-button) {
+    padding: 10px 15px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:not(.cta-button):hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.colores {
+ color: #DCDCDC;
+}
+
+.colo {
+    color: #000;
+}
+
+.profile {
+        margin: 20px auto;
+        width: 80%;
+        background-color: #DCDCDC;
+        padding: 20px;
+        border: 1px solid #DCDCDC;
+        border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+}
+
+footer h4 {
+    color: white;
+}
+
+footer .logo {
+    text-align: center; /* Centra el logo */
+}
+
+footer .logo img {
+    max-width: 170px;
+}
+
+footer .enlaces, footer .redes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .enlaces li, footer .redes li {
+    margin: 5px 0;
+}
+
+footer .enlaces li a, footer .redes li a {
+    color: gray;
+    text-decoration: none;
+}
+
+footer .enlaces li a:hover, footer .redes li a:hover {
+    color: white;
+}
+
+footer .derechos {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h4,
+footer .enlaces li,
+footer .redes li {
+    margin: 5px 0;
+}
+
+footer .logo img {
+    max-width: 170px;
+}
+
+footer .enlaces,
+footer .redes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .enlaces li a,
+footer .redes li a {
+    color: gray;
+    text-decoration: none;
+}
+
+footer .enlaces li a:hover,
+footer .redes li a:hover {
+    color: white;
+}
+
+footer .derechos {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.whatsapp{
+width: 60px;
+position: fixed;
+right: 20px;
+bottom: 20px;
+}
+
+.profilees {
+        margin: 20px auto;
+        width: 80%;
+        background-color: #808080;
+        padding: 20px;
+        border: 1px solid #000;
+        border-radius: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.tienda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.producto {
+    background-color: #333;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.btn-comprar {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-comprar:hover {
+    background-color: darkorange;
+}
+
+
+/* Estilos generales para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* El contenido del footer se organiza en columnas en pantallas grandes */
+footer .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .col-md-4 {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/* Para pantallas pequeñas (teléfonos), el footer se ajusta */
+@media screen and (max-width: 1024px) {
+    footer .row {
+        flex-direction: column; /* Alinea las columnas verticalmente en móviles */
+    }
+
+    footer .col-md-4 {
+        width: 100%; /* Cada sección ocupa todo el ancho de la pantalla */
+        margin-bottom: 10px; /* Añadir espacio entre las secciones */
+    }
+
+    footer .redes {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    footer .redes li {
+        margin: 0 10px;
+    }
+
+    footer .redes a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+/* Ajustes para los derechos reservados */
+.derechos {
+    font-size: 14px;
+    margin-top: 10px;
+}

@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+    .menu-left, .menu-right .cta-button {
+        display: none;
+    }
+
+    .menu-right .hamburger {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cta-button {
+        padding: 5px 15px;
+    }
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+.navbar a:not(.cta-button) {
+    padding: 10px 15px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:not(.cta-button):hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}

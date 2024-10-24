@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Gym</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link class="ventana-redonda" rel="icon" href="../img/LogoVentana.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body style="background-color: black;">
+<header>
+
+    <a href="https://wa.me/5211234567890" target="_blank">
+        <img class="whatsapp" src="../img/wa.png" alt="Contacta por WhatsApp"> <!-- Imagen o botón de WhatsApp -->
+    </a>
+
+    <nav class="navbar">
+        <div class="menu-left">
+            <a href="interfaz_web.html" class="btn colores">Inicio</a>
+        </div>
+        <div class="logo">
+            <img src="../img/LogoTitulo.png" alt="Logo">
+        </div>
+        <div class="menu-right">
+            <a href="tiendagym.html" class="cta-button">Tienda Gym</a>
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mobileMenu" class="mobile-menu">
+        <a href="#" class="closebtn" onclick="toggleMobileMenu()">&times;</a>
+    </div>
+</header>
+
+<!-- Sección de Tienda Gym -->
+<div class="tienda">
+    <h1 class="colo texts">Tienda de Gym</h1>
+
+    <div class="producto">
+        <img src="../img/guantes.png" alt="Guantes de Entrenamiento">
+        <h3>Guantes de Entrenamiento</h3>
+        <p>Guantes de calidad para mejorar el agarre y proteger tus manos durante el levantamiento de pesas.</p>
+        <p><strong>Precio: $20</strong></p>
+        <button class="btn-comprar">Comprar</button>
+    </div>
+
+    <div class="producto">
+        <img src="../img/botella.png" alt="Botella Deportiva">
+        <h3>Botella Deportiva</h3>
+        <p>Botella ideal para mantenerte hidratado durante tus sesiones de entrenamiento.</p>
+        <p><strong>Precio: $15</strong></p>
+        <button class="btn-comprar">Comprar</button>
+    </div>
+
+    <div class="producto">
+        <img src="../img/proteina.png" alt="Proteína en Polvo">
+        <h3>Proteína en Polvo</h3>
+        <p>Suplemento de proteína de alta calidad para apoyar el crecimiento muscular.</p>
+        <p><strong>Precio: $35</strong></p>
+        <button class="btn-comprar">Comprar</button>
+    </div>
+
+    <div class="producto">
+        <img src="../img/cinturon.png" alt="Cinturón de Levantamiento">
+        <h3>Cinturón de Levantamiento</h3>
+        <p>Cinturón diseñado para ofrecer soporte lumbar y prevenir lesiones en la espalda.</p>
+        <p><strong>Precio: $25</strong></p>
+        <button class="btn-comprar">Comprar</button>
+    </div>
+
+    <div class="producto">
+        <img src="../img/mancuernas.png" alt="Mancuernas Ajustables">
+        <h3>Mancuernas Ajustables</h3>
+        <p>Conjunto de mancuernas ajustables para entrenamiento en casa.</p>
+        <p><strong>Precio: $60</strong></p>
+        <button class="btn-comprar">Comprar</button>
+    </div>
+
+</div>
+
+<footer>
+    <div class="row logo">
+        <img src="../img/LogoTitulo.png" alt="Logo del Gimnasio">
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+            <p>En GoldenFit, nos dedicamos a ofrecer productos de alta calidad para mejorar tu rendimiento en el gimnasio. ¡Únete a nuestra comunidad y equipa tu entrenamiento!</p>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <h4>Síguenos</h4>
+            <ul class="redes">
+                <br>
+                <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                <br>
+                <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="derechos">
+        <p>&copy; 2024 GoldenFit.</p>
+    </div>
+</footer>
+
+<script src="../js/script.js"></script>
+<script>
+    document.querySelectorAll('.btn-comprar').forEach(button => {
+        button.addEventListener('click', () => {
+            alert('Producto añadido y comprado');
+        });
+    });
+</script>
+
+</body>
+</html>

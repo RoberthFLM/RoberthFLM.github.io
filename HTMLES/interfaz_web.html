@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="img/LogoTitulo.png">PlanFitnes</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link class="ventana-redonda" rel="icon" href="../img/LogoVentana.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body style="background-color: black;">
+
+    <a href="https://wa.me/5211234567890" target="_blank">
+      <img class="whatsapp" src="../img/wa.png" alt="Contacta por WhatsApp"> <!-- Imagen o botón de WhatsApp -->
+    </a>
+
+    <header>
+        <nav class="navbar">
+            <div class="menu-left">
+                <a href="adaptaciones.html" class="btn colores">Adaptaciones Musculares</a>
+                <a href="nutricion.html" class="btn colores">Como llevar buena Nutricion</a>
+                <a href="interfaz_web.html" class="btn colores">Inicio</a>
+
+            </div>
+            <div class="logo">
+                <img src="../img/LogoTitulo.png" alt="Logo">
+            </div>
+            <div class="menu-right">
+                <a href="tiendagym.html" class="cta-button">Tienda Gym</a>
+                <div class="hamburger" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <div id="mobileMenu" class="mobile-menu">
+            <a href="#" class="closebtn" onclick="toggleMobileMenu()">&times;</a>
+            <a href="adaptaciones.html" class="btn colores">Adaptaciones Musculares</a>
+            <a href="nutricion.html" class="btn colores">Como llevar buena Nutricion</a>
+            <a href="interfaz_web.html" class="btn">Inicio</a>
+            <a href="tiendagym.html" class="cta-button">Tienda Gym</a>
+        </div>
+
+        <div class="profile contenedor">
+            <img src="../img/GymdeGrecia.png" alt="Logo">
+            <img src="../img/DeunprimerGym.png" alt="Logo">
+            <img class="imagengym" src="../img/BicicletaGym.png" alt="Logo">
+        </div>
+        <div class="profile">
+           <h1 class="colo texts">Historia</h1>
+           <h2 class="colo">La historia de los gimnasios se remonta a la antigüedad, comenzando en Grecia en el siglo VI a.C. con los palaistras, donde los jóvenes entrenaban en deportes como la lucha y el boxeo. En Roma, se construyeron thermae que incluían áreas de ejercicio. Durante la Edad Media, el interés por la actividad física decayó, pero resurgió en el Renacimiento con academias de esgrima y deportes.
+
+            En el siglo XIX, surgieron los gimnasios modernos en Alemania y Suecia, con Friedrich Ludwig Jahn y Pehr Henrik Ling promoviendo la gimnasia como parte de la educación física. En el siglo XX, los gimnasios comerciales comenzaron a popularizarse, especialmente en EE.UU., y el culturismo ganó protagonismo.
+
+            Hoy en día, los gimnasios son espacios multifuncionales que ofrecen una variedad de servicios, convirtiéndose en lugares sociales donde las personas se reúnen para mejorar su salud y bienestar. Su evolución refleja la creciente conciencia sobre la importancia del ejercicio físico a lo largo de la historia.</h2>
+        </div>
+        <div class="profile">
+            <h1>Mejores ejercicios y Rutina para el Gym</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xP4iItH8HBU?si=37zrFs9bgY0hzYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </header>
+
+        <footer>
+            <div class="row logo">
+                <img src="../img/LogoTitulo.png" alt="Logo del Gimnasio">
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>En GoldenFit, nos dedicamos a ayudar a las personas a alcanzar sus objetivos de fitness. Únete a nuestra comunidad y comienza tu viaje hacia una vida más saludable.</p>
+                </div>
+                <br>
+                <div class="col-md-4">
+                    <h4>Síguenos</h4>
+                    <ul class="redes">
+                        <br>
+                        <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                        <br>
+                        <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="derechos">
+                <p>&copy; 2024 GoldenFit.</p>
+            </div>
+        </footer>
+        <script src="../js/script.js"></script>
+</body>
+</html>
